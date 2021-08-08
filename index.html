@@ -15,44 +15,51 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <div class="container-input">
-          <div class="search-input">
-            <form action="">
-              <input
-                type="text"
-                placeholder="Search for City"
-                id="searchInput"
-              />
-              <input type="submit" class="btn-search" value="Search" />
-              <input
-                type="submit"
-                class="btn-current"
-                name="My location"
-                id="myLocation"
-              />
-            </form>
-          </div>
-        </div>
-        <br />
-
-        <div class="container">
-          <div class="row">
-            <div class="col-6">
-              <h1>Westlake, Fl</h1>
-              <p>August, Friday 6</p>
-              <p>Time: 23:06</p>
-              <h2>29°</h2>
-              <p>°C | °F</p>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="container-input">
+            <div class="search-input">
+              <form action="">
+                <input
+                  type="text"
+                  placeholder="Search for City"
+                  id="searchInput"
+                />
+                <input type="submit" class="btn-search" value="Search" />
+                <input
+                  type="submit"
+                  class="btn-current"
+                  name="My location"
+                  id="myLocation"
+                />
+              </form>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Precipitation: 15%</li>
-                <li>Humidity: 69%</li>
-                <li>Wind: 4mph</li>
-              </ul>
-              <br />
-              <img src="" alt="" />
+          </div>
+          <br />
+
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <h1>Westlake, Fl</h1>
+                <p>August, Friday 6</p>
+                <p>Time: 23:06</p>
+                <h2>
+                  29 <span class="symbol">°C | <a href="#">°F</a> </span>
+                </h2>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Precipitation: 15%</li>
+                  <li>Humidity: 69%</li>
+                  <li>Wind: 4mph</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="weather-icon">
+              <img src="images/sun.png" alt="sun image" />
             </div>
           </div>
         </div>
