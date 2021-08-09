@@ -11,6 +11,9 @@ h1 {
 }
 p {
   margin: 0 auto;
+}
+
+p:first-letter {
   text-transform: capitalize;
 }
 
