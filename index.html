@@ -10,6 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather Application</title>
   </head>
@@ -40,18 +41,18 @@
           <div class="container">
             <div class="row">
               <div class="col-6">
-                <h1>Westlake, Fl</h1>
+                <h1 id="city"></h1>
                 <p>August, Friday 6</p>
                 <p>Time: 23:06</p>
-                <h2>
-                  29 <span class="symbol">°C | <a href="#">°F</a> </span>
-                </h2>
+                <p id="description"></p>
+                <h2 id="temperature"></h2>
+                <br />
+                <span id="symbol">°C | <a href="#">°F</a> </span>
               </div>
               <div class="col-6">
                 <ul>
-                  <li>Precipitation: 15%</li>
-                  <li>Humidity: 69%</li>
-                  <li>Wind: 4mph</li>
+                  <li>Humidity: <span id="humidity"></span> %</li>
+                  <li>Wind: <span id="wind"></span> mph</li>
                 </ul>
               </div>
             </div>

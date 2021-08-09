@@ -11,10 +11,11 @@ h1 {
 }
 p {
   margin: 0 auto;
+  text-transform: capitalize;
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 60px;
   color: rgb (33, 33, 33);
   font-weight: 400;
 }
@@ -36,13 +37,12 @@ li {
   border: 1px solid #dadde1;
   border-radius: 10px;
 }
-.symbol {
-  font-size: 18px;
-  position: relative;
-  top: -42px;
-}
-
 .weather-icon img {
   height: 70px;
   width: 70px;
+}
+#symbol {
+  font-size: 18px;
+  position: relative;
+  top: -42px;
 }
