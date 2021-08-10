@@ -7,10 +7,11 @@ h1 {
   font-size: 30px;
   font-weight: 100;
   line-height: 28px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 p {
-  margin: 0 auto;
+  margin: 0;
+  color: #878787;
 }
 
 p:first-letter {
@@ -23,6 +24,12 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+}
+.row {
+  padding-top: 10px;
+}
+
+#city-input {
 }
 
 .weather-app-wrapper {
