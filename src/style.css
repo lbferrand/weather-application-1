@@ -17,12 +17,6 @@ p:first-letter {
   text-transform: capitalize;
 }
 
-h2 {
-  font-size: 60px;
-  color: rgb (33, 33, 33);
-  font-weight: 400;
-}
-
 li {
   list-style: none;
   color: #878787;
@@ -41,11 +35,18 @@ li {
   border-radius: 10px;
 }
 .weather-icon img {
+  padding-top: -20px;
   height: 70px;
   width: 70px;
 }
 #symbol {
-  font-size: 18px;
-  position: relative;
+  padding-top: 20px;
+  font-size: 15px;
   top: -42px;
+}
+#temperature {
+  float: left;
+  font-size: 70px;
+  color: rgb (33, 33, 33);
+  font-weight: 400;
 }
