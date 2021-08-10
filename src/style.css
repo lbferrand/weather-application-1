@@ -50,3 +50,6 @@ li {
   color: rgb (33, 33, 33);
   font-weight: 400;
 }
+#search-form {
+  font-size: 18px;
+}

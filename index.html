@@ -20,17 +20,23 @@
         <div class="weather-app">
           <div class="container-input">
             <div class="search-input">
-              <form action="">
+              <form id="search-form">
                 <input
-                  type="text"
+                  type="search"
+                  class="clearfix"
                   placeholder="Search for City"
-                  id="searchInput"
+                  id="city-input"
+                  onfocus="this.value=''"
                 />
-                <input type="submit" class="btn-search" value="Search" />
                 <input
                   type="submit"
-                  class="btn-current"
-                  name="My location"
+                  class="btn btn-primary btn-sm"
+                  value="Search"
+                />
+                <input
+                  type="submit"
+                  class="btn btn-primary btn-sm"
+                  value="My location"
                   id="myLocation"
                 />
               </form>
