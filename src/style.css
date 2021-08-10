@@ -29,9 +29,6 @@ li {
   padding-top: 10px;
 }
 
-#city-input {
-}
-
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -42,7 +39,6 @@ li {
   border-radius: 10px;
 }
 .weather-icon img {
-  padding-top: -20px;
   height: 70px;
   width: 70px;
 }
@@ -58,6 +54,7 @@ li {
 
 #symbol {
   padding-left: 10px;
+  padding-bottom: 50px;
   font-size: 15px;
 }
 #temperature {

@@ -23,7 +23,7 @@
               <form id="search-form">
                 <input
                   type="search"
-                  class="clearfix"
+                  class="col-6"
                   placeholder="Search for City"
                   id="city-input"
                   onfocus="this.value=''"
@@ -31,13 +31,8 @@
                 <input
                   type="submit"
                   class="btn btn-primary btn-sm"
+                  class="col-6"
                   value="Search"
-                />
-                <input
-                  type="submit"
-                  class="btn btn-primary btn-sm"
-                  value="My location"
-                  id="myLocation"
                 />
               </form>
             </div>
@@ -56,6 +51,10 @@
                     <a href="#" id="celsius-link" class="active">°C </a>|
                     <a href="#" id="fahrenheit-link">°F</a>
                   </span>
+
+                  <span class="weather-icon">
+                    <img src="#" id="icon" alt="image" />
+                  </span>
                 </div>
               </div>
 
@@ -65,12 +64,6 @@
                   <li>Wind: <span id="wind"></span> mph</li>
                 </ul>
               </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="weather-icon">
-              <img src="#" id="icon" alt="image" />
             </div>
           </div>
         </div>
