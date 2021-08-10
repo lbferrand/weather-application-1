@@ -50,13 +50,16 @@
                 <h1 id="city"></h1>
                 <p>Last updated: <span id="date"></span></p>
                 <p id="description"></p>
-                <div id="temperature">
-                  <h2 id="temperature"></h2>
-                </div>
-                <div id="symbol">
-                  <p>°C | <a href="#">°F</a></p>
+
+                <div class="temperature">
+                  <strong id="temperature"></strong>
+                  <span class="units" id="symbol">
+                    <a href="#" id="celsius-link" class="active">°C </a>|
+                    <a href="#" id="fahrenheit-link">°F</a>
+                  </span>
                 </div>
               </div>
+
               <div class="col-6">
                 <ul>
                   <li>Humidity: <span id="humidity"></span> %</li>

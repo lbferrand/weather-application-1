@@ -39,17 +39,25 @@ li {
   height: 70px;
   width: 70px;
 }
+
+.weather-temperature .active {
+  color: rgb (33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
 #symbol {
-  padding-top: 20px;
+  padding-left: 10px;
   font-size: 15px;
-  top: -42px;
 }
 #temperature {
-  float: left;
   font-size: 70px;
   color: rgb (33, 33, 33);
   font-weight: 400;
 }
 #search-form {
-  font-size: 18px;
+  font-size: 15px;
 }
